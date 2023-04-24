@@ -14,7 +14,6 @@ const Header = ({ address, balance, winning }) => {
           <h1>
             <WalletButton address={addressTrimmed} fullAdddress={address} />
           </h1>
-
           <div className="fieldset-item__line-item">
             <RoundLabel text="Total Value Locked:" />
             <span>
