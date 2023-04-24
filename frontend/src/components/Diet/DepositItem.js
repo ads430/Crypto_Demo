@@ -23,7 +23,6 @@ const DepositItem = ({
   return (
     <div className="fieldset-item">
       <picture
-        // aria-hidden="true"
         onClick={handleClickImage}
         className={classnames({
           "zoomed-in overlay": isZoomed,
